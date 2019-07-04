@@ -1,0 +1,186 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mi casa",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Cancela"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "Ayuda"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Adios"
+                    ]
+                },
+                {
+                    "name": "MiraCorreoIntent",
+                    "slots": [],
+                    "samples": [
+                        "correo"
+                    ]
+                },
+                {
+                    "name": "MiraTemperaturaIntent",
+                    "slots": [],
+                    "samples": [
+                        "temperatura en casa"
+                    ]
+                },
+                {
+                    "name": "TelNombreIntent",
+                    "slots": [
+                        {
+                            "name": "nombre",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "telefono de {nombre}"
+                    ]
+                },
+                {
+                    "name": "ordenaRMIntent",
+                    "slots": [
+                        {
+                            "name": "cosa",
+                            "type": "cadena"
+                        }
+                    ],
+                    "samples": [
+                        "{cosa}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "cadena",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "limpia bien rumba"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "limpia rumba"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "izquierda rumba"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "derecha rumba"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "adelante rumba"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mueve el ventilador"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mueve el aire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "anterior"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "siguiente"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "baja el ventilador"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sube el ventilador"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "baja el aire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sube el aire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "silencio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "baja la tele"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sube la tele"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quita el aire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pon el aire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pon el ventilador"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quita el ventilador"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pon la tele"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "quita la tele"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
