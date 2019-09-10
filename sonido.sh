@@ -1,0 +1,1 @@
+espeak -ves "coeducación en esperanto es:" --stdout >/home/masanpar/alexa/input.mp3 && espeak -veo "geedukado. " --stdout >>/home/masanpar/alexa/input.mp3
